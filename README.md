@@ -45,7 +45,15 @@ $$ x_F = X_{n-k, n} - \frac{X_{n-k, n} M_1}{\gamma_M} $$
 ## How to Use the Dashboard
 
 ### 1. Running the App
-Requires Python 3.9+. Install dependencies and run via Streamlit:
+Requires Python 3.9+. 
+
+First, navigate to the project directory:
+```bash
+git clone https://github.com/ridireresearch/extreme-value-inference.git
+cd extreme-value-inference
+```
+
+Then, install dependencies and run the dashboard via Streamlit:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
